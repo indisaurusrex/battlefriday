@@ -11,4 +11,5 @@ group :development, :test do
     gem "sinatra"
     gem "rack"
     gem "capybara"
+    gem "shotgun"
 end
