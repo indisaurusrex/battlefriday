@@ -21,4 +21,8 @@ class Battle < Sinatra::Base
     @p2hp = 60
     erb :play
   end
+
+  get "/attacked" do
+    erb :attacked
+  end
 end
