@@ -22,9 +22,10 @@ class Battle < Sinatra::Base
   end
 
   get "/attacked" do
+    $p2.attack
     erb :attacked
   end
 
   run! if app_file == $0
-  
+
 end
